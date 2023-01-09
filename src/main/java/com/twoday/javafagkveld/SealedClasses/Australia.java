@@ -1,27 +1,25 @@
 package com.twoday.javafagkveld.SealedClasses;
 
-public class Australia {
-    public void printRelevantState(AustralianState state) {
-
-    }
-}
+// TODO: Skriv om klassene i denne filen om til sealed klasser/interfaces slik at
+// TODO: det ikke er mulig å arve/implementere noen av de fra utsiden.
 
 /**
- * Australian City
+ * Australske byer du absolutt burde besøke
  */
-interface AustralianCity { }
+interface CoolAustralianCity { }
 
-interface Sydney extends AustralianCity { }
+interface Sydney extends CoolAustralianCity { }
+interface Wollongong extends CoolAustralianCity { }
+interface Melbourne extends CoolAustralianCity { }
 
 
 /**
- * Australian States
+ * Australske stater som bare har det beste av det beste
  */
-class AustralianState { }
+class CoolAustralianState { }
 
-class WesternAustralia extends AustralianState{ }
-class SouthAustralia extends AustralianState{ }
-class Queensland extends AustralianState{ }
-class NewSouthWales extends AustralianState{ }
-class Victoria extends AustralianState{ }
-class Tasmania extends AustralianState{ }
+class SouthAustralia extends CoolAustralianState { }
+class NewSouthWales extends CoolAustralianState implements Wollongong, Sydney { }
+class Victoria extends CoolAustralianState implements Melbourne { }
+class Tasmania extends CoolAustralianState { }
+

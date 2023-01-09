@@ -21,11 +21,11 @@ public class Main {
         // Text Blocks
         // Skal ramse opp Koala, Kenguru, Slanger og Klovnefisk under hverandre
         System.out.println(Oppgaver.animalTextBlock());
-        // Skal skrive ut lesbare html-kode
+        // Skal skrive ut lesbar html-kode
         System.out.println(Oppgaver.htmlTextBlock());
 
         // Pattern matching
-        // skal skrive:
+        // skal skrive: Human!, platypus" og non-aborigine person!
         Oppgaver.patternMatching();
     }
 }

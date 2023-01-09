@@ -25,13 +25,8 @@ public class Oppgaver {
             Mammals mammal = (Mammals) human;
             System.out.println(mammal.toString());
         }
-        Human abo = new Aborigines();
-        if (abo instanceof Mammals) {
-            Mammals mammal = (Mammals) abo;
-            System.out.println(mammal.toString());
-        }
-        //TODO: Legg til pattern matching for å sjekke (og evt caste) om Platypus er en mammal,
-        // om OtherPeople er mammals
+        //TODO: Legg til pattern matching for å sjekke (og evt caste) om Platypus er en mammal
+        // og om OtherPeople er mammals
     }
 
     // TODO: Skriv om println ved bruk av Compact Number Formatting

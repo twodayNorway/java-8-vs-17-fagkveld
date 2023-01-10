@@ -38,6 +38,26 @@ public class Oppgaver {
     }
 
 
+    /**
+     * prøv å løse først uten å kommenter ut og kjøre
+     * Er kodesnuttene under gyldige?
+     *
+     * A
+     * var number = 7;
+     * number = "fire";
+     *
+     * B
+     * var = null;
+     *
+     * C
+     * var var = "var";
+     *
+     * D
+     * var variable = (Animal a) -> a.canHop();
+     *
+     * E
+     * Predicate<String> p = (var x) -> true;
+     */
 
 
 

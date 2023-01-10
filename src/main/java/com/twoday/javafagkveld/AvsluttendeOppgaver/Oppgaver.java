@@ -59,6 +59,20 @@ public class Oppgaver {
      * Predicate<String> p = (var x) -> true;
      */
 
-
+    /**
+     * Prøv å løse først uten å kommentere ut og kjøre
+     * Vil koden kompilere, og i så fall hva printes?
+     *
+     * void printReptile(int category) {
+     *   var type = switch(category) {
+     *       case 1,2 -> "Snake";
+     *       case 3,4 -> "Lizard";
+     *       case 5,6 -> "Turtle";
+     *       case 7,8 -> "Alligator";
+     *    };
+     *    System.out.print(type);
+     * }
+     *
+     */
 
 }

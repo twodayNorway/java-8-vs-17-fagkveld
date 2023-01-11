@@ -24,6 +24,9 @@ public class Main {
         // Skal skrive ut lesbar html-kode
         System.out.println(Oppgaver.htmlTextBlock());
 
+        // Compact number formatting
+        Oppgaver.compactNumberFormatting();
+
         // Pattern matching
         // skal skrive: Human!, platypus" og non-aborigine person!
         Oppgaver.patternMatching();

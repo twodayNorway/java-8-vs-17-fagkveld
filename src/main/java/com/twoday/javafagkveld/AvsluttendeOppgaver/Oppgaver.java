@@ -20,10 +20,10 @@ public class Oppgaver {
 
     public static void patternMatching() {
         //TODO: skriv om til å sjekke og caste i samme sleng
-        Human human = new Human();
-        if (human instanceof Mammals) {
-            Mammals mammal = (Mammals) human;
-            System.out.println(mammal.toString());
+        Mammals mammal = new Human();
+        if (mammal instanceof Human) {
+            Human human = (Human) mammal;
+            System.out.println(human.toString());
         }
         //TODO: Legg til pattern matching for å sjekke (og evt caste) om Platypus er en mammal
         // og om OtherPeople er mammals
